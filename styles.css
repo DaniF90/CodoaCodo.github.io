@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 54, 58);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav_superior {
+    width: 290px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    font-size: 13px;
+}
+
+.nav_superior a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav .nav_superior .menu-icono {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav_superior img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-search {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+main .main-input input {
+    height: 40px;
+    width: 450px;
+    margin-left: 10px;
+    border: none;
+    outline: none;   
+}
+
+main .container .main-input input:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+main .main-input .search-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 13px;
+    height: 13px;
+}
+
+main .main-input .main-input-search a {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 90px;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    margin-top: 90px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+main .main-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+main .main-buttons a{
+    border: none;
+    border-radius: 4px;
+    background-color: #222224;
+    padding: 12px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+a {
+    cursor: pointer;
+    color: white;
+}
+
+:root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --pinterest: #bd081c;
+    --linkedin: #0077b5;
+}
+
+.redes-container {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.redes-container ul li a {
+    display: block;
+    padding: 0 5px;
+    background: #646464;
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgb(245, 244, 244);
+    transition: .2s;
+}
+
+.redes-container ul:hover a {
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover {
+    background: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover {
+    background: var(--instagram);
+}
+
+.redes-container ul li .twitter:hover {
+    background: var(--twitter);
+}
+
+.redes-container ul li .pinterest:hover {
+    background: var(--pinterest);
+}
+
+.redes-container ul li .linkedin:hover {
+    background: var(--linkedin);
+}
+
+
+
+/*
+main .container .bandera_argentina {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+
+main .color1 {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background-color: lightblue;
+    height: 60px;
+}
+
+main .color2 {
+    width: 600px;
+    background-color: white;
+    height: 40px;
+}
+
+main .color3 {
+    width: 600px;
+    background-color: lightblue;
+    height: 60px;
+}*/
+
